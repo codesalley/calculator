@@ -4,4 +4,4 @@ Calculator UI
 
 ## Getting Started
 
-#['ss/screen1.png]
+#['.ss/screen1.png']
