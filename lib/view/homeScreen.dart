@@ -24,7 +24,12 @@ class HomeScreen extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [Obx(() => Text('${conreoller.input}'))],
+                    children: [
+                      Obx(() => Text(
+                            '${conreoller.input}',
+                            style: TextStyle(fontSize: 40),
+                          ))
+                    ],
                   ),
                 ),
                 Container(
@@ -66,7 +71,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             GestureDetector(
                               onTap: () {
-                                conreoller.input.add(22);
+                                // conreoller.input.add(22);
                               },
                               child: NumberCard(
                                 width: 70,
